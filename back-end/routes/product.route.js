@@ -9,8 +9,6 @@ const router = express.Router();
 
 router.get("/", getAllProducts);
 
-// Create Product
-
 router.post("/", createProduct);
 
 // Update Product
