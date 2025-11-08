@@ -4,7 +4,6 @@ import CreatePage from "./pages/CreatePage.jsx"
 import HomePage from "./pages/HomePage.jsx"
 import Navbar from "./components/Navbar.jsx"
 function App() {
-
   return (
     <Box minHeight="100vh">
       <Navbar />
