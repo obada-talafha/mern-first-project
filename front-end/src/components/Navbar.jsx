@@ -1,4 +1,5 @@
-import { Container, Flex, HStack } from '@chakra-ui/react'
+import { Container, Flex, HStack, Text } from '@chakra-ui/react' // <-- 1. Add Text here
+import { Link } from 'react-router-dom' // <-- 2. Add this import for Link
 import { CiSquarePlus } from "react-icons/ci";
 
 const Navbar = () => {
